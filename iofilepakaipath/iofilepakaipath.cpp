@@ -27,7 +27,16 @@ int main()
         //Loop akan berhenti jika anda memasukkan karakter q
         if (baris == "q") break;
         //Menulis dan memasukkan nilai dari 'baris' ke dalam file
-
+        outfile << baris << endl;
     }
+    //Selesai dalam menulis sekarang tutup file
+    outfile.close();
+
+    //Membaca file dalam mode membaca
+    ifstream infile;
+    // Menunjuk ke sebuah file
+    infile.open(NamaFile + ".txt", ios::in);
+
+
 }
 
