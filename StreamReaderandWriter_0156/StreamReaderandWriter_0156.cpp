@@ -46,9 +46,13 @@ int main()
             //dan tampilkan disini
             cout << baris << '\n';
         }
-
+        //Tutup file tersebut setelah selesai
+        infile.close();
 
     }
+    // JIka tidak ditemukan file maka akan menampilkan ini
+    else cout << "Unable to open file";
+    return 0;
 
 
 
