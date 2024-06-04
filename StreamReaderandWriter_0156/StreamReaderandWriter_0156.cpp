@@ -12,6 +12,12 @@ int main()
     //Membuka file dalam mode menulis
     ofstream outfile;
 
+    //menunjuk ke sebuah file
+    outfile.open("contohfile.txt");
+
+    cout << ">= Menulis file, \'q\' untuk keluar" << endl;
+
+
 
 }
 
