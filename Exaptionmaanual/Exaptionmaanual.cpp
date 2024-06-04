@@ -17,8 +17,11 @@ int main()
     }
     catch (...)
     {
-
+        //jika selain integer maka block ini akan dieksekusi
+        cout << "default pengcualian dieksekusi" << endl;
     }
+
+    return 0;
 
 }
 
