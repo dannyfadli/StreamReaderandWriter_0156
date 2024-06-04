@@ -31,5 +31,10 @@ int main()
     // Selesai dalam menulis sekarang tutup filenya
     outfile.close();
 
+    //Membaca file dalam mode membaca
+    ifstream infile;
+    //menunjuk ke sebuah file
+    infile.open("conohfile.txt");
+
 }
 
