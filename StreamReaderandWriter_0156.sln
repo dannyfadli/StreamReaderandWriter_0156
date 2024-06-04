@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StreamReaderandWriter_0156", "StreamReaderandWriter_0156\StreamReaderandWriter_0156.vcxproj", "{EC51EF28-DE90-4C5E-929D-77D3DC961A4A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "iofilepakaipath", "iofilepakaipath\iofilepakaipath.vcxproj", "{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{EC51EF28-DE90-4C5E-929D-77D3DC961A4A}.Release|x64.Build.0 = Release|x64
 		{EC51EF28-DE90-4C5E-929D-77D3DC961A4A}.Release|x86.ActiveCfg = Release|Win32
 		{EC51EF28-DE90-4C5E-929D-77D3DC961A4A}.Release|x86.Build.0 = Release|Win32
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Debug|x64.ActiveCfg = Debug|x64
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Debug|x64.Build.0 = Debug|x64
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Debug|x86.Build.0 = Debug|Win32
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Release|x64.ActiveCfg = Release|x64
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Release|x64.Build.0 = Release|x64
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Release|x86.ActiveCfg = Release|Win32
+		{A086A8A3-BFC2-4C17-9CE7-CFE7D21847E6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
