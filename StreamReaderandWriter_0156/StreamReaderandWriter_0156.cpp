@@ -41,6 +41,12 @@ int main()
     if (infile.is_open())
     {
         //melakukan perulang setiap baris
+        while (getline(infile, baris))
+        {
+            //dan tampilkan disini
+            cout << baris << '\n';
+        }
+
 
     }
 
